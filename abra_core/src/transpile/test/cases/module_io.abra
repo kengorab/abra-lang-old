@@ -1,6 +1,6 @@
 import getCurrentDir, readFile from "io"
 
-// Test files should always be run from the `abra-lang/abra_core` dir
+// Test files should always be run from the `abra-lang-old/abra_core` dir
 val parts = getCurrentDir().split("/")[-2:]
 println(parts.join("/"))
 
@@ -13,7 +13,7 @@ if readFile(getCurrentDir() + "/../README.md") |readme| {
 println(readFile(getCurrentDir() + "/../bogus.what"))
 
 /* assert(stdout):
-abra-lang/abra_core
-# Abra
+abra-lang-old/abra_core
+# Abra (archive)
 None
 */

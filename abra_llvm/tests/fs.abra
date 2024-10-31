@@ -4,7 +4,7 @@ import "fs" as fs
 (() => {
   val cwd = fs.getCurrentWorkingDirectory()
   /// Expect: true
-  println(cwd.endsWith("/abra-lang/abra_llvm"))
+  println(cwd.endsWith("/abra-lang-old/abra_llvm"))
 })()
 
 // fs::readFile
